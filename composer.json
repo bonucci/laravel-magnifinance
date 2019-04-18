@@ -1,0 +1,26 @@
+{
+    "name": "maurobonucci/laravel-magnifinance",
+    "description": "Magnifinance is a Invoice processing library",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^5.8",
+        "php": "^7.1",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "autoload":{
+        "psr-4": {
+            "Maurobonucci\\Laravel_Magnifinance\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mauro Bonucci",
+            "email": "mauro@cloudinfo.pt"
+        }
+    ],
+    "minimum-stability": "dev"
+}
